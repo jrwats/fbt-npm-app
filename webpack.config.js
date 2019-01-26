@@ -20,6 +20,7 @@ module.exports = {
     modules: [
       path.resolve(__dirname, 'src'),
       path.resolve(__dirname, 'src/example'),
+      './node_modules'
     ]
   },
   devServer: {
