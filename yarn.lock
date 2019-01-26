@@ -2990,10 +2990,10 @@ fbjs@1.0.0:
     setimmediate "^1.0.5"
     ua-parser-js "^0.7.18"
 
-fbt-runtime@^0.9.2:
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/fbt-runtime/-/fbt-runtime-0.9.2.tgz#29341d2c9e8137ebf937157312b982f3ef51f8ea"
-  integrity sha512-5pH6lx0L5/PZ401ZY/j/Nj67VolDRDB32LQHeMZFfjjnN0kD6MBBDh5VsscrTTEcnveDBCuyuLLMCqi+0ZMkgQ==
+fbt-runtime@^0.9.4:
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/fbt-runtime/-/fbt-runtime-0.9.4.tgz#93a11d8879582dbad666efab5452452b9aa256f1"
+  integrity sha512-KgD6AxaXc4ti0f+Lebsjm5Gv/9mcpRW+JO47dQ5J8osIb0Mz7ScszBZgPawB16A1EcS/qa6HVKqBhuz7xNeCow==
 
 figgy-pudding@^3.0.0, figgy-pudding@^3.1.0, figgy-pudding@^3.4.1, figgy-pudding@^3.5.1:
   version "3.5.1"

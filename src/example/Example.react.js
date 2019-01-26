@@ -16,8 +16,10 @@ const {
   GenderConst,
   IntlVariations,
   IntlViewerContext,
-  fbt
+  fbt,
+  init
 } = require("fbt-runtime");
+init({translations: require('../translatedFbts.json')});
 
 const LOCALES = Object.freeze({
   en_US: Object.freeze({
