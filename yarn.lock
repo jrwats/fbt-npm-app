@@ -1216,10 +1216,21 @@ babel-plugin-fbt-runtime@^0.9.0:
     babel-plugin-fbt "0.9.0"
     fb-babel-plugin-utils "0.9.0"
 
-babel-plugin-fbt@0.9.0, babel-plugin-fbt@^0.9.0:
+babel-plugin-fbt@0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-fbt/-/babel-plugin-fbt-0.9.0.tgz#8903e5f1579b614472c71a0ea5a92604be0a756e"
   integrity sha512-lYnNIQDnT0qlaE0edF5ijqdJNvBpa0pbr2FAjpGXRLfqJpAeK+hxum/aNNtDrbsXUpbv94Oq7hKPnpSw+lEbww==
+  dependencies:
+    "@babel/core" "^7.2.0"
+    "@babel/generator" "^7.2.2"
+    fb-babel-plugin-utils "0.9.0"
+    optimist "^0.6.1"
+    shelljs "^0.8.3"
+
+babel-plugin-fbt@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-fbt/-/babel-plugin-fbt-0.9.1.tgz#844cea89c270818dae74924ffa2f46ce30fecae2"
+  integrity sha512-ueo7HXAIGm6TO8nVNwKJwglzTZegIZxhI5LrjaQ9QJNUNE9jHANap+laMAMN2VtE7wXc+ApKffxcnHD1gCb2xA==
   dependencies:
     "@babel/core" "^7.2.0"
     "@babel/generator" "^7.2.2"
@@ -2990,10 +3001,10 @@ fbjs@1.0.0:
     setimmediate "^1.0.5"
     ua-parser-js "^0.7.18"
 
-fbt-runtime@^0.9.4:
+fbt@^0.9.4:
   version "0.9.4"
-  resolved "https://registry.yarnpkg.com/fbt-runtime/-/fbt-runtime-0.9.4.tgz#93a11d8879582dbad666efab5452452b9aa256f1"
-  integrity sha512-KgD6AxaXc4ti0f+Lebsjm5Gv/9mcpRW+JO47dQ5J8osIb0Mz7ScszBZgPawB16A1EcS/qa6HVKqBhuz7xNeCow==
+  resolved "https://registry.yarnpkg.com/fbt/-/fbt-0.9.4.tgz#d2388d026c7f8c525074e77d1cfc587424fd3210"
+  integrity sha512-xFvpnluSTJfkKjRhfUR/BAUMQkkYUwYBdpP+7WK8LN5PaCTk3tnSpl1YhpmTod4bn6ZVjBvagQPmTRCjAigfDw==
 
 figgy-pudding@^3.0.0, figgy-pudding@^3.1.0, figgy-pudding@^3.4.1, figgy-pudding@^3.5.1:
   version "3.5.1"

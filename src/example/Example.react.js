@@ -18,7 +18,7 @@ const {
   IntlViewerContext,
   fbt,
   init
-} = require("fbt-runtime");
+} = require("fbt");
 init({translations: require('../translatedFbts.json')});
 
 const LOCALES = Object.freeze({
