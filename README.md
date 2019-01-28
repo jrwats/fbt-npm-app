@@ -1,7 +1,7 @@
 # Standalone Babel/Webpack/React Demo using NPM modules
 
 ### Relevant package dependences:
-[fbt](https://www.npmjs.com/package/fbt)  (runtime)
+[fbt](https://www.npmjs.com/package/fbt)  (runtime)  
 [babel-plugin-fbt](https://www.npmjs.com/package/babel-plugin-fbt)  
 [babel-plugin-fbt-runtime](https://www.npmjs.com/package/babel-plugin-fbt-runtime)  
 
