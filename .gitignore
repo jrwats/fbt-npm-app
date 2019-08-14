@@ -2,3 +2,4 @@ node_modules
 .enum_manifest.json
 .src_manifest.json
 .source_strings.json
+yarn-error.log
