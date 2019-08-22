@@ -19,7 +19,10 @@ const {
   fbt,
   init
 } = require("fbt");
-init({translations: require('../translatedFbts.json')});
+
+// Start out with an "empty" dictionary that defaults to English source
+let translations = {"en_US": {}};
+init({translations});
 
 const LOCALES = Object.freeze({
   en_US: Object.freeze({
@@ -90,6 +93,21 @@ export default class Example extends React.Component<Props, State> {
   };
 
   setLocale(locale: Locale) {
+    // Dynamically import translation dictionary
+    if (locale === 'en_US') {
+      // No payload to load
+      this._setLocale('en_US');
+    } else {
+      import('../dict/' + locale + '.json').then(({ default: payload }) => {
+        for (const k in payload) {
+          translations[k] = payload[k];
+        }
+        this._setLocale(locale);
+      });
+    }
+  }
+
+  _setLocale(locale) {
     IntlViewerContext.locale = locale;
     this.setState({ locale });
     const html = document.getElementsByTagName("html")[0];

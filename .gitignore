@@ -1,5 +1,6 @@
-node_modules
 .enum_manifest.json
-.src_manifest.json
 .source_strings.json
+.src_manifest.json
+node_modules
+src/dict
 yarn-error.log
