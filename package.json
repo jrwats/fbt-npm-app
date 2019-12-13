@@ -67,7 +67,7 @@
     "fbt": "^0.9.55",
     "lodash": "4.17.11",
     "normalize.css": "^8.0.1",
-    "npm": "^6.4.1",
+    "npm": "^6.13.4",
     "optimist": "^0.6.1",
     "shelljs": "^0.8.3",
     "style-loader": "^0.23.1"
